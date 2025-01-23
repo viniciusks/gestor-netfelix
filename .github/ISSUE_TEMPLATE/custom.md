@@ -1,10 +1,7 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
+name: Template de Issue Personalizado
+about: Descreva o propósito deste template de issue aqui.
+title: ""
+labels: ""
+assignees: ""
 ---
-
-
