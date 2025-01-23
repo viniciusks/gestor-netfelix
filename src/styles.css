@@ -3,6 +3,11 @@
 
 @theme {
   --font-default: "Poppins", serif;
+  --color-primary: #d9d9d9;
+  --color-optional-1: #bfbfbf;
+  --color-secondary: #8c8c8c;
+  --color-optional-2: #595959;
+  --color-tertiary: #0d0d0d;
 }
 
 :root {
