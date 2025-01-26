@@ -1,29 +1,29 @@
 <div class="bg-secondary flex h-screen w-screen items-center justify-center">
     <div
-        class="bg-primary flex h-80 w-100 items-center justify-center rounded-sm shadow-sm"
+        class="bg-primary flex h-80 w-100 items-center justify-center rounded-md p-6 shadow-sm"
     >
-        <div class="block">
-            <div>
+        <div class="block text-center">
+            <div class="mb-4">
                 <h1 class="text-2xl">Gestor Netfelix | Login</h1>
             </div>
             <div>
                 <form (submit)="login($event)">
                     <input
-                        class="mb-2 rounded-sm border-2 border-gray-300 p-2"
+                        class="mb-2 w-full rounded-md border-2 border-gray-300 bg-white p-2"
                         type="text"
                         placeholder="Email"
                         [(ngModel)]="email"
                         name="email"
                     />
                     <input
-                        class="mb-2 rounded-sm border-2 border-gray-300 p-2"
+                        class="mb-2 w-full rounded-md border-2 border-gray-300 bg-white p-2"
                         type="password"
                         placeholder="Senha"
                         [(ngModel)]="password"
                         name="password"
                     />
                     <button
-                        class="bg-secondary mb-2 rounded-sm border-2 border-gray-300 p-2 text-white"
+                        class="bg-optional-2 hover:bg-tertiary mb-2 w-full cursor-pointer rounded-md border-2 border-gray-300 p-2 text-white"
                         type="submit"
                     >
                         Entrar
